@@ -1,0 +1,28 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main-header {
+  position: fixed;
+  width: 100%;
+}
+
+.cards {
+  margin-top: 130px;
+  align-self: center;
+}
+
+.cards > h2 {
+  background-color: #1b0858;
+  color: white;
+  align-content: center;
+  padding: 1rem;
+}
+
+@media (max-width: 921px) {
+  .cards {
+    margin-top: 230px;
+  }
+}

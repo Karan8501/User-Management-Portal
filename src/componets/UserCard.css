@@ -1,0 +1,67 @@
+.user-card {
+  margin: 1rem 0;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: aliceblue;
+  display: flex;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+}
+
+.user-info {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border: 2px solid green;
+  border-radius: 999px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.user-info > h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card-body {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: rgb(235, 151, 16);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  color: rgb(235, 151, 16);
+  background-color: white;
+  border: 1px solid rgb(235, 151, 16);
+}
+
+.selected {
+  background-color: green;
+  color: white;
+}
+
+.selected button {
+  background-color: white;
+  color: rgb(235, 151, 16);
+}
